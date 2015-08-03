@@ -1,6 +1,6 @@
 # millsagram
 
-Instagram app with Node.js
+Instagram app using Node.js
 
 TO DO add more description + screenshot
 
@@ -8,10 +8,12 @@ TO DO add more description + screenshot
 
 ## Installation
 
-* step 1
-* step 2
+* install Node.js and npm on your machine
+* download source code
+* open terminal, go to project directory and run npm install
 
 ## How to run
 
-* step 1
-* step 2
+* run node index.js
+* open browser to http://localhost:3000
+ 
