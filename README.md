@@ -2,18 +2,30 @@
 
 Instagram app using Node.js
 
-TO DO add more description + screenshot
-
 ![screenshot](https://github.com/hannahy2014/millsagram/blob/master/screenshots/main.png?raw=true)
 
 ## Installation
 
-* install Node.js and npm on your machine
-* download source code
-* open terminal, go to project directory and run npm install
+Install Node.js and npm on your development machine, see instructions [here](https://nodejs.org/download/).
+
+Download source code:
+
+```
+git clone git@github.com:hannahy2014/millsagram.git
+```
+Open terminal, go to project directory and run:
+
+```
+npm install
+```
 
 ## How to run
 
-* run node index.js
-* open browser to http://localhost:3000
+Open terminal and run:
+
+```
+node index.js
+```
+
+Open browser and go to `http://localhost:3000`
  
