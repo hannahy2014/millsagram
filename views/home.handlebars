@@ -1,0 +1,45 @@
+
+
+<script type="text/javascript">
+
+function millsagram(search_term) {
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: search_term,
+        //the tagName calls for the term variable below
+        clientId: 'f9906e8adfc6406c89ffdf22d9d6af62',
+        limit: 16,
+        links: true
+    });
+//running the Instafeed variable
+    feed.run();
+};
+
+function search() {
+//the function is called search, below are the behaviours for it  
+  var term = document.getElementById("search_term").value;
+//term is the variable you are storing the search_term ID into
+//retrieve getElementById value which is search_term  
+  document.getElementById('instafeed').innerHTML = "";
+//here you are calling the ID from the a new instance of the variable "Instafeed" (your search_term) and placing it into HTML to display on the page.   
+  millsagram(term);
+//calls the "millsagram" function and the search_term that has been entered, so calling the HTML to display.  
+};
+
+</script>
+<br>
+
+<div id="search_box_button">
+<input type="text" id="search_term">
+{{!-- Building a submit button which calls the search function onClick --}}
+<input class="submit_button" type="button" value="search" onClick="search();">
+</div>
+{{!-- Calls the instafeed variable to print --}}
+<br>
+<div id="instafeed"></div>
+
+
+
+
+
+

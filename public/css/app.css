@@ -1,0 +1,38 @@
+body {
+  background-color: #eee9c0;
+}
+
+#instafeed {
+  background-color: #eee9c0;
+  width: 75%;
+  border-spacing: 10px;
+  margin-left: 120px;
+}
+
+.submit_button {
+  background-color: #ffda83;
+  font-size: 20px;
+  margin-left: 25px;
+  font-family: Daniel;
+}
+
+.submit_button:hover {
+  background-color: #db973f;
+}
+
+/*center*/
+#search_box_button {
+  margin-left: 300px;
+}
+
+#foodagram_header {
+  margin-left: 240px;
+  font-family: Daniel;
+  margin-top: 25px;
+  font-size: 40px;
+}
+
+
+
+
+
