@@ -1,8 +1,6 @@
 # millsagram
 
-Instagram app using Node.js
-
-TO DO add more description + screenshot
+Instagram app using Node.js.
 
 ![screenshot](https://github.com/hannahy2014/millsagram/blob/master/screenshots/main.png?raw=true)
 
